@@ -10,6 +10,7 @@ while( nombre != "ESC") {
         break;
         case"Lewandowski":
             alert ("El Goleador del Momento");
+        break;
         case"Maradona":
             alert ("Dios es Argentino");
         break;
@@ -20,5 +21,5 @@ while( nombre != "ESC") {
              alert ("¿Que Jugador Sos?");
         break;
          }
-         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia?" )
+         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia?")
 }
