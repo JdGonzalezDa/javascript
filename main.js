@@ -20,5 +20,5 @@ while( nombre != "ESC") {
              alert ("¿Que Jugador Sos?");
         break;
          }
-         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia?")
+         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia?" )
 }
