@@ -1,31 +1,24 @@
-const Año = parseInt ("2021");
+let nombre = prompt ("¿Quien es el Mejor Jugador de la Historia?");
 
-let nombre = prompt ("Ingrese su Nombre");
-
-let apellido = prompt ("Ingrese su Apellido");
-
-
-if (nombre == "" ||  apellido == ""){
-
-    console.error("Error! Datos no ingresados");
-
-    alert("Ingresar Dats Validos");
-} else {
-
-    let fechaNacimiento = parseInt( prompt(" Ingresar Fecha de Nacimiento"));
-
-     let edad = parseInt( Año - fechaNacimiento);
-    
-        if  (fechaNacimiento == "" || edad < 18){ 
-
-                alert ("No puede ingresar!");
-
-                } else {
-
-                 document.write("Resultado");
-    
-                 console.log (nombre);
-                 console.log(apellido);
-                 console.log (Edad);
-     }
-    }
+while( nombre != "ESC") {
+    switch (nombre) {
+        case"Messi":
+        alert("El Mago");
+        break;
+        case"Cristiano Ronaldo":
+        alert ("El Artillero del Gol");
+        break;
+        case"Lewandowski":
+        alert ("El Goleador del Momento");
+        case"Maradona":
+        alert ("Dios es Argentino");
+        break;
+        case"Pele":
+            alert("El Maximo Goleador de todos los Tiempos");
+            break;
+        default:
+             alert("Que Jugador Sos?");
+            break;
+         }
+         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia")
+}
