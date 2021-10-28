@@ -3,7 +3,7 @@ let nombre = prompt ("¿Quien es el Mejor Jugador de la Historia?");
 while( nombre != "ESC") {
     switch (nombre) {
         case"Messi":
-        alert("El Mago");
+        alert ("El Mago");
         break;
         case"Cristiano Ronaldo":
         alert ("El Artillero del Gol");
@@ -14,11 +14,11 @@ while( nombre != "ESC") {
         alert ("Dios es Argentino");
         break;
         case"Pele":
-            alert("El Maximo Goleador de todos los Tiempos");
+            alert ("El Maximo Goleador de todos los Tiempos");
             break;
         default:
-             alert("Que Jugador Sos?");
+             alert ("¿Que Jugador Sos?");
             break;
          }
-         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia")
+         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia?")
 }
