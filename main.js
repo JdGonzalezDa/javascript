@@ -1,25 +1,9 @@
-let nombre = prompt ("¿Quien es el Mejor Jugador de la Historia?");
+function hacerAlgo(dato1,dato2) {
+    
+    document.write('<p style="color:white">${dato1} ${dato2}</p>');
+ }
 
-while( nombre != "ESC") {
-    switch (nombre) {
-        case"Messi":
-            alert ("El Mago");
-        break;
-        case"Cristiano Ronaldo":
-            alert ("El Artillero del Gol");
-        break;
-        case"Lewandowski":
-            alert ("El Goleador del Momento");
-        break;
-        case"Maradona":
-            alert ("Dios es Argentino");
-        break;
-        case"Pele":
-            alert ("El Maximo Goleador de todos los Tiempos");
-        break;
-        default:
-             alert ("¿Que Jugador Sos?");
-        break;
-         }
-         nombre = prompt ("¿Quien es el Mejor Jugador del la Historia?")
+hacerAlgo();
+hacerAlgo("Hola");
+hacerAlgo("Hola", "Mundo");
 }
