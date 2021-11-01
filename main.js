@@ -6,4 +6,4 @@ function hacerAlgo(dato1,dato2) {
 hacerAlgo();
 hacerAlgo("Hola");
 hacerAlgo("Hola", "Mundo");
-}
+
