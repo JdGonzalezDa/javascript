@@ -25,7 +25,4 @@ solicitarProducto();
 calculoIva();
 solicitarProducto();
 calculoIva();
-solicitarProducto();
-calculoIva();
-solicitarProducto();
-calculoIva();
+
